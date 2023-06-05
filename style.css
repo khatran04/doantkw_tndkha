@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box  ;
+}
+body{
+    height: 4532px;
+    width: 1920px;
+    left: 10917px;
+    top: 10387px;
+    border-radius: 0px;
+}
+header{
+    
+    background-color: #F8FAFC;
+    width: 1920px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+}    
+.mheader{
+    display: flex;
+    padding-left: 375px;
+    padding-top: 28px;
+}
+.mheader ul{
+    display: flex;
+    gap: 2rem;
+    padding-right: 142px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #7B88A8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 177px;
+    list-style: none;
+}
+header h1 {
+    align-content: center;
+    padding-top: 203px;
+    padding-left: 520px;
+    padding-right: 520px;
+    
+}
+header p{
+    text-align: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #2D3958;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.icon{
+    padding-top: 8px;
+    gap: 5rem;
+    padding-right: 3rem;
+}
+.button{
+    padding-top: 2px;
+}
+header h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+
+}
+button{
+    background: #4F77FF;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 24px;
+}
+.main-container h1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.main-container h2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #2D3958;
+}
+.main-container p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #788190;
+
+}
+.right{
+    width: 40%;
+    position: absolute; right: 0px ;
+    position: absolute; top: 650px;
+    padding-right: 375px;
+}
+.right button{
+   margin-bottom: 175px;
+}
+.left button{
+    margin-bottom: 175px;
+}
+.left{
+   width: 40%;
+   padding-left: 375px;
+}
+.picture-l{
+    position: absolute;
+    width: 570px;
+    height: 570px;
+    left: 0px;
+    top: 670px;                                                                          
+    background: url(page_pollock_about_item_2.jpg);
+    border-radius: 20px;
+    
+}
+.left img{
+    padding-bottom: 150px;
+}
+#first{
+    padding-top: 100px;
+}
+#r1{
+    padding-bottom: 150px;
+}
+p{
+    padding-bottom: 70px;
+}
+.behind{
+    position: absolute;
+    width: 1920px;
+    height: 399px;
+    left: 0px;
+    top: 2806px;
+    background-color: #292F3A;
+   
+}
+.behind h1 {
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2D3958;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.behind p{
+    text-align: center;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #7B88A8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item #big{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #886CFF;
+    line-height: 10px;
+    margin-bottom: -30px;
+    margin-top: 99px;
+  
+}
+.item #small{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 5px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: -40px;
+}
+.item #tiny{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #7B88A8;
+    padding-right: 30px;
+    margin: -5px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 1170px;
+    height: 350px;
+    left: 375px;
+    top: 3516px;
+    padding-left: 120px;
+
+
+
+}
+.card h3{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #2D3958;
+}
+.card p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #7B88A8;
+}
+.avata{
+   padding-left: 115px;
+}
+.card1.content{
+    border: #F8FAFC solid 2px;
+    border-radius: 10px;
+}
+footer{
+    position: absolute;
+    width: 1920px;
+    height: 546px;
+    left: 0px;
+    top: 3986px;
+    background: #292F3A;
+}
+.logo2{
+    position: absolute;
+    width: 169px;
+    height: 44px;
+    padding-top: 100px;
+    padding-left: 300px;
+    
+}
+.line{
+    display: flex;
+    padding-left: 530px;
+    gap: 120px;
+    padding-top: 90px;
+    
+    
+}
+ #p1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+   
+}
+.line p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    color: #E7E5EA;
+    margin-bottom: -80px;
+}
+.line4 h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E7E5EA;
+
+}
+input{
+    padding: 11px 15px;
+}
+.inside{
+    display: flex;
+    padding-left: 300px;
+    gap: 370px;
+    padding-top: 100px;
+}
+.inside h4{
+    font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #E7E5EA;
+}
+.social{
+    
+    width: 196px;
+    height: 52px;
+}
